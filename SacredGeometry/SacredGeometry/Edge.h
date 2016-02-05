@@ -4,7 +4,7 @@
 #include "Node.h"
 
 class Edge {
-	int heyo;
+	
 public:
 
 
