@@ -7,11 +7,13 @@
 
 class Node {
 	std::vector<Edge> edges;
-	string ex;
+	std::string ex;
 	int val;
 public:
-	std::vector<Edge> getEdges();
-	string getEx();
+	Node(std::string exp);
+	~Node();
+	Edge getEdges();
+	std::string getEx();
 	int getVal();
 };
 

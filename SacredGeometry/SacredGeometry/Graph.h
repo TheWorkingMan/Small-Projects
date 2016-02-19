@@ -11,7 +11,6 @@ public:
 	Graph() {};
 	~Graph() {};
 	void addEdge(Node a, Node b);
-	std::vector<Node> printGraph();
 };
 
 #endif // !GRAPH_H
